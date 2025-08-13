@@ -18,4 +18,4 @@ spec:
               service:
                 name: vote
                 port:
-                  number: 30200
+                  number: 80
