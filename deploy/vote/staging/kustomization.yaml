@@ -18,5 +18,5 @@ images:
 configMapGenerator:
   - name: vote
     literals:
-      - OPTION_A=IT
-      - OPTION_B=Electronics
+      - OPTION_A=Kohli
+      - OPTION_B=Rohit
