@@ -18,5 +18,5 @@ images:
 configMapGenerator:
   - name: vote
     literals:
-      - OPTION_A=Kohli
-      - OPTION_B=Rohit
+      - OPTION_A=Modi
+      - OPTION_B=Rahul
