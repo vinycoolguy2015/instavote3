@@ -1,0 +1,14 @@
+iapiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+- ../base
+
+commonLabels:
+  project: instavote
+  env: staging
+
+commonAnnotations:
+  supported-by: "vinayak@gmail.com"
+
+namespace: instavote
